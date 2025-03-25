@@ -80,7 +80,7 @@ const Membership = () => {
                   <br />
                   <button className="btn btn-success rounded-5">
                     <Link
-                      to="/start-free-trial"
+                      to="/login"
                       className="text-white text-decoration-none"
                     >
                       Start 7 day free trial
@@ -147,7 +147,7 @@ const Membership = () => {
                   <br />
                   <button className="btn btn-success rounded-5">
                     <Link
-                      to="/start-free-trial"
+                      to="/login"
                       className="text-white text-decoration-none"
                     >
                       Start 7 day free trial
@@ -214,7 +214,7 @@ const Membership = () => {
                   <br />
                   <button className="btn btn-success rounded-5">
                     <Link
-                      to="/start-free-trial"
+                      to="/login"
                       className="text-white text-decoration-none"
                     >
                       Start 7 day free trial
