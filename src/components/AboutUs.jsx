@@ -8,16 +8,17 @@ const AboutUs = () => {
           <div className="row">
             <div className="col-md-12 text-center">
               <button className="btn btn-outline-success text-white rounded-5 fw-bold">
-                About CrossFit Gym
+                About FINDCOLLAB
               </button>
               <h2 className="fw-bold mb-4">
-                Hi! We’re a local CrossFit gym in <br /> Denver, Colorado.
+                Hi! Welcome to our Company Collaboration Platform.
               </h2>
               <p>
-                CrossFit Gym was started by Alex and Sparky in 2012. It’s our
-                mission to <br /> help people in Denver get fit, stay healthy,
-                and live life on their terms <br /> without fitness being an
-                obstacle.
+                Our platform was designed to enhance teamwork, streamline
+                communication, and boost productivity. Since our launch, we've
+                been committed to helping businesses collaborate efficiently,
+                manage projects seamlessly, and stay connected—no matter where
+                they are.
               </p>
             </div>
           </div>
@@ -62,7 +63,7 @@ const AboutUs = () => {
             </div>
             <div className="col-md-6 p-3">
               <div>
-                {/* <iframe
+                <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242117.70906969727!2d73.69815309340439!3d18.524870610788835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1710937390606!5m2!1sen!2sin"
                   width="600"
                   height="450"
@@ -70,7 +71,7 @@ const AboutUs = () => {
                   style={{ border: 'none' }}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                ></iframe> */}
+                ></iframe>
               </div>
             </div>
           </div>

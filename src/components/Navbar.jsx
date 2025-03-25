@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg p-0 text-white">
         <div className="container">
           <h2 className="p-2">
-          CrossFit Gym
+         FINDCOLLAB
           </h2>
           <button
             className="navbar-toggler bg-white"
@@ -45,7 +45,7 @@ const Navbar = () => {
                 aria-current="page"
                 href="#offer"
               >
-                CrossFit
+                Home
               </a>
               <a className="nav-link text-white" href="#membership">
                 Membership

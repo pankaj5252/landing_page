@@ -1,11 +1,11 @@
 import React from "react";
-import img1 from "../assets/img1 (1).jpg";
-import img2 from "../assets/img1 (2).jpg";
-import img3 from "../assets/img1 (3).jpg";
-import img4 from "../assets/img1 (4).jpg";
+import img1 from "../assets/img2.jpg";
+import img2 from "../assets/img1.jpg";
+import img3 from "../assets/img3.jpg";
+import img4 from "../assets/img4.jpg";
 import { Link } from "react-router-dom";
 
-const Offers = () => {
+const Category  = () => {
   return (
     <>
       <div id="offer">
@@ -13,7 +13,7 @@ const Offers = () => {
           <div className="row">
             <div className="col-md-12">
               <h2 className="text-white text-center box-title">
-                We offer something for <br /> everybody
+              Browse Category by Talent
               </h2>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Offers = () => {
                 <div className="card-body position-absolute text-white">
                   <Link to="" className="text-decoration-none text-white">
                     <h2 className="card-title fw-bold mt-5 text-center">
-                      Group CrossFit classes
+                     Fashion
                     </h2>
                   </Link>
                 </div>
@@ -44,23 +44,7 @@ const Offers = () => {
                 <div className="card-body position-absolute text-white">
                   <Link to="" className="text-decoration-none text-white">
                     <h2 className="card-title fw-bold mt-5 text-center">
-                      Strength Training
-                    </h2>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 mt-3">
-              <div className="card rounded-4 border-0 overflow-hidden card_img">
-                <img
-                  src={img3}
-                  className="card-img-top opacity-75 h-100"
-                  alt="..."
-                />
-                <div className="card-body position-absolute text-white">
-                  <Link to="" className="text-decoration-none text-white">
-                    <h2 className="card-title fw-bold mt-5 text-center">
-                      Personal Training
+                     Makeup
                     </h2>
                   </Link>
                 </div>
@@ -76,7 +60,23 @@ const Offers = () => {
                 <div className="card-body position-absolute text-white">
                   <Link to="" className="text-decoration-none text-white">
                     <h2 className="card-title fw-bold mt-5 text-center">
-                      Member Only Events
+                      Skincare
+                    </h2>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 mt-3">
+              <div className="card rounded-4 border-0 overflow-hidden card_img">
+                <img
+                  src={img3}
+                  className="card-img-top opacity-75 h-100"
+                  alt="..."
+                />
+                <div className="card-body position-absolute text-white">
+                  <Link to="" className="text-decoration-none text-white">
+                    <h2 className="card-title fw-bold mt-5 text-center">
+                     LifeStyle
                     </h2>
                   </Link>
                 </div>
@@ -89,4 +89,4 @@ const Offers = () => {
   );
 };
 
-export default Offers;
+export default Category ;
