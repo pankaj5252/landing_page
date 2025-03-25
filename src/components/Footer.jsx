@@ -72,7 +72,7 @@ const Footer = () => {
                 <li className="m-2">Contact</li>
               </ul>
             </div>
-            <span>Copyright 2023 | Pankaj kale</span>
+            <span>Copyright 2025 | Pankaj kale</span>
           </div>
         </div>
       </div>
