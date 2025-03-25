@@ -1,0 +1,50 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.slider_dis {
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+
+    font-size: 30px;
+  }
+}
+
+.box-title {
+  font-size: 50px;
+}
+
+.slider_img {
+  height: 650px;
+  object-fit: cover;
+}
+
+.card_img {
+  height: 200px !important;
+}
+
+.Traning_img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.membership_card {
+  height: 500px !important;
+  width: 100% !important;
+}
+
+.footer_ul {
+  list-style-type: none;
+}
